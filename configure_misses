@@ -1,0 +1,12 @@
+Configure miss: manpath
+Configure miss: if 64bit support is requested
+Configure miss: if 64bit Sparc VIS support is requested
+Configure miss: build with symbols
+Configure miss: varargs.h usability
+Configure miss: varargs.h presence
+Configure miss: varargs.h
+Configure miss: sys/mode.h usability
+Configure miss: sys/mode.h presence
+Configure miss: sys/mode.h
+Configure miss: t_accept in -lnsl
+Configure miss: if /bin/csh supports large environment variables

@@ -1,0 +1,2 @@
+mkdir -p %{buildroot}/usr/share/defaults/etc/profile.d
+ln -s /usr/share/modules/init/profile.sh  %{buildroot}/usr/share/defaults/etc/profile.d/modules.sh

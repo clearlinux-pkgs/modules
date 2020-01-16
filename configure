@@ -1,0 +1,5 @@
+--without-tclx 
+--prefix=/usr/share/modules
+--etcdir=/usr/share/defaults/etc
+--docdir=/usr/share/doc/environment-modules
+--vimdatadir=/usr/share/vim/vimfiles
