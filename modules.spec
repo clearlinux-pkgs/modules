@@ -4,7 +4,7 @@
 #
 Name     : modules
 Version  : 4.4.1
-Release  : 9
+Release  : 12
 URL      : https://github.com/cea-hpc/modules/releases/download/v4.4.1/modules-4.4.1.tar.bz2
 Source0  : https://github.com/cea-hpc/modules/releases/download/v4.4.1/modules-4.4.1.tar.bz2
 Summary  : Provides dynamic modification of a user's environment
@@ -15,11 +15,14 @@ Requires: modules-data = %{version}-%{release}
 Requires: modules-libexec = %{version}-%{release}
 Requires: modules-license = %{version}-%{release}
 Requires: modules-man = %{version}-%{release}
+Requires: python3
+Requires: tcl
 BuildRequires : dejagnu
 BuildRequires : expect
 BuildRequires : less
 BuildRequires : pkgconfig(x11)
 BuildRequires : procps-ng
+BuildRequires : python3
 BuildRequires : tcl
 BuildRequires : tcl-dev
 BuildRequires : tcl-staticdev
@@ -122,7 +125,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1579288305
+export SOURCE_DATE_EPOCH=1582331359
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -146,7 +149,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make test
 
 %install
-export SOURCE_DATE_EPOCH=1579288305
+export SOURCE_DATE_EPOCH=1582331359
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/modules
 cp %{_builddir}/modules-4.4.1/COPYING.GPLv2 %{buildroot}/usr/share/package-licenses/modules/db95910cb27890d60e596e4c622fc3eeba6693fa
