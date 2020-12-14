@@ -4,7 +4,7 @@
 #
 Name     : modules
 Version  : 4.4.1
-Release  : 13
+Release  : 14
 URL      : https://github.com/cea-hpc/modules/releases/download/v4.4.1/modules-4.4.1.tar.bz2
 Source0  : https://github.com/cea-hpc/modules/releases/download/v4.4.1/modules-4.4.1.tar.bz2
 Summary  : Provides dynamic modification of a user's environment
