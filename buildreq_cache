@@ -1,6 +1,4 @@
-4.4.1
+4.7.1
 dejagnu
 less
-pkgconfig(x11)
 procps-ng
-tcl
